@@ -1,0 +1,4 @@
+<factorypath>
+   <factorypathentry kind="WKSPJAR" id="/Unyatter/lib/slim3-gen-1.0.15.jar" enabled="true" runInBatchMode="false"/>
+   <factorypathentry kind="WKSPJAR" id="/Unyatter/war/WEB-INF/lib/scenic3-0.5.0.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+	<application>unyatter</application>
+	<version>1</version>
+
+	<precompilation-enabled>true</precompilation-enabled>
+
+	<system-properties>
+		<property name="slim3.hotReloading" value="true" />
+		<property name="java.util.logging.config.file" value="WEB-INF/classes/logging.properties" />
+		<property name="oauth.consumerKey" value="xxxxxxxxxxxxxxxxxxx" />
+		<property name="oauth.consumerSecret" value="yyyyyyyyyyyyyyyyyyyyyyy" />
+	</system-properties>
+	<sessions-enabled>true</sessions-enabled>
+	<async-session-persistence enabled="true" />
+	<threadsafe>true</threadsafe>
+
+	<static-files>
+		<include path="/css/**.css" />
+		<include path="/js/**.js" />
+		<include path="/img/**.png" />
+		<include path="/img/**.gif" />
+		<include path="/img/**.jpg" />
+		<include path="/favicon.ico" />
+	</static-files>
+</appengine-web-app>
