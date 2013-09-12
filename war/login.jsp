@@ -52,12 +52,28 @@ body {
 		<div class="span8 form-horizontal">
 			<fieldset>
 				<legend>ついったーでログインしてくださいなのや。</legend>
+          <div>
+なんか、言わなくてもいいんだけど、言ってもしょうがないって分かってるんだけど<br />
+それでも言ってしまうんだけど、別に誰かに聞いて欲しいという感じのあれでもなくて<br />
+なんかこう・・・ふにっとしたときに(」・ω・)」うー(／・ω・)／にゃーってしたくなるなぁと<br />
+思ったので作りました。<br />
+<br />
+ふにっとしたときにうにゃっとするのや。
+</div>
 				<div class="control-group">
 					<div class="form-actions">
 						<div>
 							<a href="/oauth"><img src="./img/sign-in-with-twitter-l.png" /></a>
 						</div>
 					</div>
+<h3>うにゃったーの使い方</h3>
+<ol>
+<li>ふにっとしたときにうにゃったーを開きます</li>
+<li>ふにっとしたことをうにゃったーに書きなぐります</li>
+<li>つぶやく</li>
+<li>(」・ω・)」うー(／・ω・)／にゃー</li>
+<li>あしたもがんばろう</li>
+</ol>
 				</div>
 			</fieldset>
 			<hr />
