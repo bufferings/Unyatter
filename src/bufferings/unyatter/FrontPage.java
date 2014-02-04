@@ -43,7 +43,7 @@ public class FrontPage extends ScenicPage {
       "(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー #unyatter ",
       "(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー #unyatter ",
       "(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー(／・ω・)／にゃー(」・ω・)」うー #unyatter ",
-      "(」・ω・)」うー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー #unyatter " };
+      "(」・ω・)」うー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー(／・ω・)／にゃー #unyatter " };
 
   @Default
   public Navigation index() {
@@ -69,8 +69,7 @@ public class FrontPage extends ScenicPage {
       String verifier = requestScope(OAUTH_VERIFIER_KEY);
       Twitter twitter = removeSessionScope(TWITTER_KEY);
       RequestToken requestToken = removeSessionScope(REQUEST_TOKEN_KEY);
-      AccessToken accessToken =
-        twitter.getOAuthAccessToken(requestToken, verifier);
+      AccessToken accessToken = twitter.getOAuthAccessToken(requestToken, verifier);
       saveAccessToken(accessToken);
       return redirect("/");
     } catch (Exception e) {
